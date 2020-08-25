@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* ==================================================== */
+/* ============== GENERAL BODY STYLES ================= */
+/* ==================================================== */
+:root {
+    --main-font : 'Lato', sans-serif;
+    --text-black : #000000;
+    --text-white : #ffffff;
+    --main-background : #F2F8FA;
+    --button-fill : #2D93AD;
+    --link-color : #2699FB;
+    --facebook-blue: #4C76BE;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+}
+body {
+    background-color: var(--main-background);
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+/* ==================================================== */
+/* ================== ELEMENTS STYLES ================= */
+/* ==================================================== */
+
+.main_heading {
+    margin: 3rem 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.main_heading::before,
+.main_heading::after {
+    content: '';
+    width: 35%;
+    height: 1.5px;
+    background-color: #4E4343;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.main_heading::before{
+    margin-right: 4rem;
+}
+.main_heading::after{
+    margin-left: 4rem;
+}
+.log_form {
+    margin: 4rem auto;
+    max-width: 400px;
+}
+.form-control {
+    padding: 1.5rem 1rem;
+    background-color: var(--text-white) !important;
+    border-radius: 5px !important;
+    box-shadow: 0px 0px 6px #00000029 !important;
+    border: none !important;
+}
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+    box-shadow: 0px 0px 10px #14597929 !important;
+}
+label {
+    font-weight: 600;
+}
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 4;
+    margin-right: 1rem;
+}
+.log_button, 
+.facebook_button,
+.google_btn {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 5px !important;
+    margin: 1.6rem 0;
+    color: var(--text-white);
+}
+.log_button:hover, 
+.facebook_button:hover,
+.google_btn:hover{
+    box-shadow: 0px 0px 15px #00000029;
+}
+.log_button {
+    background-color: var(--button-fill);
+}
+.log_button:hover,
+.log_button:active,
+.log_button:focus {
+    background-color: var(--facebook-blue);
+}
+.facebook_button {
+    background-color: var(--facebook-blue);
+}
+.google_btn {
+    background-color: var(--text-white);
+    box-shadow: 0px 0px 6px #00000029;
+    color: var(--text-black);
+}
+.google_btn:hover,
+.google_btn:active,
+.google_btn:focus {
+    background-color: var(--facebook-blue);
+}
+.diviider {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.divider::before,
+.divider::after {
+    content: '';
+    width: 35%;
+    height: 1px;
+    background-color: #4E4343;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.divider::before{
+    margin-right: 12%;
+}
+.divider::after{
+    margin-left: 12%;
+}
+.google_icon {
+    height: 1.3rem;
+    margin-top: -3px;
+}
+.log_form a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+.log_form a:hover {
+    color: var(--facebook-blue);
+    text-decoration: none;
+}
+.forgot_p, .help_text {
+    font-size: 0.9rem;
+    color: #4E4343;
+}
+@media screen and (max-width: 768px) {
+    .main_heading {
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    .main_heading::before,
+    .main_heading::after {
+        width: 25%;
+        margin-bottom: 4px;
+    }
+    .main_heading::before{
+        margin-right: 10%;
+    }
+    .main_heading::after{
+        margin-left: 10%;
+    }
+    .divider::before,
+    .divider::after {
+        width: 35%;
+        margin-bottom: 5px;
+    }
+    .divider::before{
+        margin-right: 10%;
+    }
+    .divider::after{
+        margin-left: 10%;
+    }
+
+}
+@media screen and (max-width: 428px) {
+    .log_form {
+        margin: 4rem 1.5rem;
+        max-width: 400px;
+    }
+    
+}
