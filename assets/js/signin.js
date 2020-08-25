@@ -8,3 +8,13 @@ $(".toggle-password").click(function () {
         input.attr("type", "password");
     }
 });
+$(".toggle-password2").click(function () {
+
+    $(this).toggleClass("fa-eye fa-eye-slash");
+    var input2 = $('#password-field2');
+    if (input2.attr("type") == "password") {
+        input2.attr("type", "text");
+    } else {
+        input2.attr("type", "password");
+    }
+});
