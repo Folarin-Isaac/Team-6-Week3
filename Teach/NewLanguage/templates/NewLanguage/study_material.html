@@ -1,0 +1,9 @@
+{%block content%}
+{% load static %}
+{% if material %}
+    <p> {{material.topic }}</p>
+    <p> {{ material.text }}</p>
+    <p> {{ material.audio }}</p>
+{% endif %}
+{% endblock %}
+<p><a href="{% url 'NewLanguage:question' pk=material.id %}">{{ .number }}</a></p>

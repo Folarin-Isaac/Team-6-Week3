@@ -1,0 +1,11 @@
+{%block content%}
+{% load static %}
+{% if questions %}
+    {% for question in questions %}
+        <p> {{question.study_studymaterial }}</p>
+        <p> {{ question.text }}</p>
+        <p>{{ question.answeroptions_set.all()}}</p>
+        <p>STAGE<a href="{% url 'NewLanguage:study_material' pk=stage.id %}">{{ stage.number }}</a></p>
+    {% endfor %}
+{% endif %}
+{% endblock %}
