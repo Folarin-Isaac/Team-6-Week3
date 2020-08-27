@@ -83,6 +83,9 @@
 #img2 {
     height: 2rem;
 }
+.sub_area form {
+    display: block !important;
+}
 .footer_form {
     padding: 0.4rem 1rem;
     background-color: var(--text-white) !important;

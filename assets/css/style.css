@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lato", "Arial", sans-serif;
 }
 
 html,
@@ -12,13 +13,13 @@ body {
   font-size: px;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 header {
   color: #fff;
-  background-image: url("/assets/Video.png");
+  background-image: url("../images/Video.jpg");
   background-size: cover;
   background-position: center;
-  height: 75vh;
   width: 100%;
   background-attachment: fixed;
   margin-bottom: 4rem;
@@ -38,7 +39,8 @@ header {
   margin-left: 25px;
 }
 .intro-container {
-  padding-top: 5%;
+  height: 650px;
+  padding-bottom: 6rem;
 }
 .intro-container.last {
   padding-top: 10%;
@@ -217,7 +219,7 @@ h4 {
 }
 .second-header {
   color: #fff;
-  background-image: url("/assets/muhammad.png");
+  background-image: url("../images/muhammad.jpg");
   background-size: cover;
   background-position: center;
   height: 75vh;
