@@ -35,11 +35,13 @@ header > div {
 }
 
 .x-container {
+  
   padding: unset;
   margin-right: 0px !important;
   margin-left: 0px !important;
   padding-right: 15px !important;
   padding-left: 15px !important;
+  color: rgb(42, 40, 40);
 }
 .x-container-item,
 .x-container-item2 {

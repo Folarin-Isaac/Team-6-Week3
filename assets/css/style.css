@@ -7,7 +7,7 @@
 
 html,
 body {
-  background-color: #fff;
+  background-color: #F2F8FA;
   color: #fff;
   font-family: "Lato", "Arial", sans-serif;
   font-size: px;
@@ -162,9 +162,9 @@ button {
 
 .illustration-container,
 .instruction-container {
+  background-color: white;
   height: 750px;
   width: 100%;
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 10px #0000001a;
   border-radius: 10px;
   opacity: 1;
@@ -215,7 +215,7 @@ button {
 }
 
 h4 {
-  font-size: 40px;
+  font-size: 30px;
 }
 .second-header {
   color: #fff;
