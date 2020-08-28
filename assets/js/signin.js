@@ -18,3 +18,30 @@ $(".toggle-password2").click(function () {
         input2.attr("type", "password");
     }
 });
+$(document).ready(function () {
+
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: true,
+        autoplay: false,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    })
+});
+
+var another = document.getElementsByClassName('owl-next').item[1];
+
+console.log(another);
+
+x.innerHTML = "<i class='fa fa-arrow-right'></i>"

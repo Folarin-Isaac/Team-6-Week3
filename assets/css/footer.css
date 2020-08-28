@@ -18,6 +18,7 @@
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0;
+    color: #161515;
 }
 .one{
     transform: rotate(-90deg) translateX(-2.5rem);
@@ -42,6 +43,7 @@
 .bottom_footer {
     padding: 0.7rem 10vw;
     background-color:#2D93AD ;
+    
 }
 .bottom_footer p {
     margin-bottom: 0;
@@ -70,6 +72,7 @@
 }
 .top_footer form p {
     font-size: 0.9rem;
+    color: #4E4343;
 }
 .subscribe_button {
     padding-left: 0.7rem;
@@ -84,6 +87,7 @@
     height: 2rem;
 }
 .sub_area form {
+    border: none;
     display: block !important;
 }
 .footer_form {
