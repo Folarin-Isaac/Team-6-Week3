@@ -240,6 +240,12 @@ header > div {
   .second_row {
     flex-direction: column-reverse;
   }
+  .navbar-collapse {
+    text-align: center;
+  }
+  .nav-item {
+    margin: 1rem 0;
+  }
 }
 
 @media screen and (max-width: 568px) {
