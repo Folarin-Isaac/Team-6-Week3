@@ -21,7 +21,6 @@ For the Mobile: https://xd.adobe.com/view/72b00a13-0a18-47a5-aeae-ac98c1bed664-2
 
 NOTE: To navigate the Mobile UI
 
-
   Tap on the Splash to continue
   
   Then tap through the Onboarding Slides
