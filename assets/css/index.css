@@ -372,4 +372,5 @@ header > div {
   header > section, header > div {
     margin: 0 1rem;
   }
+  .navbar { padding:0.5rem 0 !important ; }
 }

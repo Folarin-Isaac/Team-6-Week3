@@ -24,7 +24,7 @@ $(document).ready(function () {
         loop: true,
         margin: 20,
         nav: true,
-        autoplay: false,
+        autoplay: true,
         autoplayHoverPause: true,
         responsive: {
             0: {
@@ -40,8 +40,8 @@ $(document).ready(function () {
     })
 });
 
-var another = document.getElementsByClassName('owl-next').item[1];
+window.addEventListener('load', function () {
+    const loader = document.querySelector('.loader');
+    loader.classList.add('done');
 
-console.log(another);
-
-x.innerHTML = "<i class='fa fa-arrow-right'></i>"
+});
